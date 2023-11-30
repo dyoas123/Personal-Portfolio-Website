@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio ni dyoas</title>
+    <Style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+           background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiyKkyTxEFfm-q4LpXLvi8eQYaih8dAWKePA&usqp=CAU);
+            color: #333;
+        }
+        .about{
+            color:aqua;
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+            color:white;
+          
+        }
+
+        header {
+            background-image: url(https://dailypsychedelicvideo.files.wordpress.com/2015/09/cat_laser_1.gif);
+            background-position: center;
+            color: white;
+            padding: 30px 0;
+            
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header p {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: pink;
+        }
+
+        .pic {
+            height: 500px;
+        }
+
+        main {
+            background-image: url(https://gifdb.com/images/high/trippy-flying-wave-2h61fkp8o9nkgow8.gif);
+            padding: 40px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .project {
+            margin-bottom: 20px;
+           
+        }
+
+        @media (max-width: 768px) {
+            header {
+                padding: 20px 0;
+            }
+
+            header h1 {
+                font-size: 28px;
+            }
+
+            header p {
+                font-size: 16px;
+            }
+        }
+    </Style>
+</head>
+
+<body>
+    <header>
+        <div class="about">
+            <h1>Portfolio ni Dyoas</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" onclick="navigateTo('home')">Home</a></li>
+                    <li><a href="#" onclick="navigateTo('about')">About</a></li>
+                    <li><a href="#" onclick="navigateTo('projects')">Projects</a></li>
+                    <li><a href="#" onclick="navigateTo('repositories')">Repositories</a></li>
+                </ul>
+            </nav>
+        
+    </header>
+
+    <main id="home" class="container">
+        <h2>Welcome sa akong Portfolio</h2>
+        <p>"Please Lower your brightness"</p>
+        <img class="pic" src="https://images.milledcdn.com/2021-06-25/vR-29kRk1gUNwG8_/IPYV3_-WBhAV.gif" alt="bogo.gif">
+    </main>
+
+    <main id="about" class="container" style="display: none;">
+        <h2 class="container">About Me</h2>
+        <br><br><br>
+        <img class="pic" src="https://scontent.fdvo2-1.fna.fbcdn.net/v/t39.30808-6/399097601_290831093952955_5364790675017272199_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeHsSSSiOMTEKTAeu1QTBQuwBQxi5O7WfsYFDGLk7tZ-xh5yUnt0UB5OOsVXRSO_gGA-Z4pnSQiC-wktsiNiL92s&_nc_ohc=Xz4ie31dz0EAX80S3Dv&_nc_ht=scontent.fdvo2-1.fna&oh=00_AfC5oBPWqQFdSLLY0ljQamhJWHUExIJNRAJ6bX0vrW_2og&oe=656CFCD6" alt="dyoas.jpg">
+        <h3>Name: Joash Rautraut</h3>
+        <h5>na mad-an na ang utok</h5>  
+        <br>
+        <h5>Race: Nigga</h5>
+        <h5>Class: IT Student</h5>
+        <h5>Age: 20</h5>
+        <h5>GitHub Account: <a href="https://github.com/dyoas123">dyoas123</a></h5>
+        <br>
+        <h3>Skills:</h3>
+        <br>
+        <h5>"CAN COOK FOODS"</5>
+        <h5>"can wash the dishes"</h5>
+        <h5>"can dance"</h5>
+      
+     
+    </main>
+
+    <main id="projects" class="container" style="display: none; color: bisque;">
+        <h2>Projects</h2>
+        <br><br>
+        <div class="project">
+            <h3><a href="https://github.com/dyoas123/it21c-projectfinal/tree/main/src/Polymorphism">Polymorphism</a></h3>
+        </div>
+        <div class="project">
+            <h3><a href="https://github.com/dyoas123/it21c-projectfinal/tree/main/src/Stack">Stack</a></h3>
+        </div>
+        <div class="project">
+            <h3><a href="https://github.com/dyoas123/it21c-projectfinal/tree/main/src/Inheritance">Inheritance</a></h3>
+        </div>
+        <div class="project">
+            <h3><a href="https://github.com/dyoas123/it21c-projectfinal/tree/main/src/Employee">Employee</a></h3>
+        </div>
+        <div class="project">
+            <h3><a href="https://github.com/dyoas123/it21c-projectfinal/tree/main/src/BankAccount">BankAccount</a></h3>
+        </div>
+        <div class="project">
+            <h3><a href="https://github.com/dyoas123/it21c-projectfinal/tree/main/src/OOP_PAKEDS">OOP_PAKEDS</a></h3>
+        </div>
+        <div class="project">
+            <h3><a href="https://github.com/dyoas123/OOPETS">OOPETS</a></h3>
+        </div>
+        <div class="project">
+            <h3><a href="https://github.com/dyoas123/SuperClassPerson">SuperClassPerson </a></h3>
+        </div>
+        <div class="project">
+            <h3><a href="https://github.com/dyoas123/it24-main">it24-main</a></h3>
+        </div>
+        <div class="project">
+            <h3><a href="https://github.com/dyoas123/NavigationBar">NavigationBar</a></h3>
+        </div>
+        
+    </main>
+    <main id="repositories" class="container">
+        <div class="container">
+        <h2>Repositories<a href="https://github.com/dyoas123?tab=repositories"></a></h2>
+        </div>
+
+        <br><br>
+        
+        <div class="project">
+            <h3><a href="https://github.com/dyoas123?tab=repositories">Repositories</a></h3>
+        </div>
+        
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
